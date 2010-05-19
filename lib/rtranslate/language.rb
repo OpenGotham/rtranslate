@@ -1,6 +1,7 @@
 module Google
   module Language
-    {"lo"=>"LAOTHIAN", 
+    Languages = {
+    "lo"=>"LAOTHIAN", 
     "ta"=>"TAMIL", 
     "eu"=>"BASQUE", 
     "iw"=>"HEBREW", 
