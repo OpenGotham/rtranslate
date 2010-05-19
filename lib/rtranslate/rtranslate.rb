@@ -16,7 +16,7 @@ module Translate
     # Default version of Google AJAX Language API
     DEFAULT_VERSION = "1.0"
 
-    attr_reader :version, :key
+    attr_accessor :version, :key
     attr_reader :default_from, :default_to
 
     class << self
